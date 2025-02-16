@@ -1,30 +1,6 @@
-# QMK ARDUX Implementation
+# QMK ARDUX Implementation for the rp2040 - Zero
 
-This repo contains the [QMK](https://qmk.fm/) ARDUX implementation and pre-built firmware for boards that have been setup to use ARDUX by the core ARDUX development team.
-
-## Prebuilt Firmware
-
-The `Releases` area of this repository contains the latest builds of the QMK ARDUX implementation. You can click on the most recent release and download the appropriate artifact for your MCU + board combination.
-
-### Firmware Files
-
-The firmware files are auto built for a variety of common boards as well as community requested/supported boards. Our builds do *NOT* override default mcu/bootloader/architecture. Please mind this fact if you've tweaked your board in any way relative to the official QMK sources.
-
-### Flashing
-
-We recommend Windows and OSX users download the pre-built hex files and use [QMK Toolbox](https://github.com/qmk/qmk_toolbox). 
-
-If you are on Linux, you'll need to use the `qmk flash` command with the same options as we use to compile. The compile options can be found in  `DEVELOPMENT.md` and are compatible with the `qmk flash` command. If there is an alternative thats easier to use, please let us know on Discord or GitHub Issue.
-
-**We are NOT responsible for any failed firmware flashes!**
-
-## Adding ARDUX support to an existing qmk board
-
-See [DEVELOPMENT.md](DEVELOPMENT.md)
-
-## Tweaking and Remixing
-
-See [REMIXING.md]
+It's just a fork of the main one made by @granitrocky on Discord. I had to rename some pins in order to solder it better on the RP2040-Zero. Other than that, it's basically the same.
 
 ## Inspiraion
 
